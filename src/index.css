@@ -1,21 +1,20 @@
-/* Bloomberg Terminal Professional Theme Settings */
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b0f19; /* Cyber Dark Slate Background */
-  color: #00ff66; /* Bloomberg-style Neon Matrix Green text */
+  background-color: #060a13; /* High-density deep terminal black */
+  color: #00ff66; /* Bloomberg Neon Tick Green */
   font-family: 'Roboto Mono', 'Courier New', monospace;
   overflow-x: hidden;
 }
 
-/* Neon accents for financial widgets */
+/* Cyber Terminal HUD Interface Containers */
 .ticker-tape {
-  background: #020617;
-  border-bottom: 2px solid #00f0ff;
+  background: #010409;
+  border-bottom: 2px solid #00d2ff;
 }
 
-.market-panel {
-  background: #111827;
-  border: 1px solid #1f2937;
-  box-shadow: 0 0 10px rgba(0, 240, 255, 0.1);
+.terminal-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  box-shadow: 0 0 10px rgba(0, 210, 255, 0.1);
 }
