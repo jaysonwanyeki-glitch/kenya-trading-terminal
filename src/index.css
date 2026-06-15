@@ -5,3 +5,10 @@ body {
   color: #00ff66;
   font-family: monospace;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #060a13;
+  color: #00ff66;
+  font-family: monospace;
+}
