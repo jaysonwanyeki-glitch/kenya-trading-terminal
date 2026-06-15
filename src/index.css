@@ -1,20 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #060a13; /* High-density deep terminal black */
-  color: #00ff66; /* Bloomberg Neon Tick Green */
-  font-family: 'Roboto Mono', 'Courier New', monospace;
-  overflow-x: hidden;
+  background-color: #060a13;
+  color: #00ff66;
+  font-family: monospace;
 }
 
-/* Cyber Terminal HUD Interface Containers */
 .ticker-tape {
   background: #010409;
   border-bottom: 2px solid #00d2ff;
-}
-
-.terminal-card {
-  background: #0f172a;
-  border: 1px solid #334155;
-  box-shadow: 0 0 10px rgba(0, 210, 255, 0.1);
 }
